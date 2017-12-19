@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#navegation-local{
+  width: inherit;
+  height: inherit;
+}
+hr{
+  margin: 9px;
+}
+.li-left{
+  float: left;
+}
+.logo-laboratoria{
+  height: 50%;
+  width: 300px;
+}
+.search-student{
+  border-radius: 50px;
+  height: 15px;
+  margin-top: 10px;
+  padding: 15px;
+  width: 300px;
+}
+.separator{
+  padding: 10px;
+}
+.user{
+  position: relative;
+}
+.less-student{
+  position: relative;
+}
+.li-right{
+  float: right;
+}
+.input-style-name{
+  border-radius: 50px;
+  height: 25px;
+  width: 330px;
+}
+.button-style{
+  background-color: #ffc107;
+  border: none;
+  border-radius: 50px;
+  height: 25px;
+  width: 80px;
+}
+.button-less{
+  left: 250px;
+  margin: 3px;
+  position: absolute;
+}
+.less-student{
+  position: relative;
+}
+.box-less-student{
+  height: 100px;
+  width: 300px;
+}
+.less-student-option{
+  right: -30px;
+}
+.box-img-map-southamerica{
+  align: rigth;
+  margin-top: 30px;
+  position: absolute;
+  width: inherit;
+  z-index: -1;
+}
+.impact-numbers-style{
+  background-color: #ffc107;
+  border-radius: 50px;
+  height: 150px;
+  margin: 6px;
+  width: 150px;
+}
+.impact{
+  float: right;
+  margin-top: 60px;
+}
+.number-weight{
+  font-size: 40px;
+  font-weight: 700;
+  padding: 25px;
+  text-align: center;
+}
+.letter-weight{
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+ul li{
+  list-style: none;
+}
+.button-style a{
+  color: black;
+  text-decoration: none;
+}
+.user li a {
+  background-color: #ffc107;
+  border-radius: 50px;
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.user ul{
+  display: none;
+  min-width: 140px;
+}
+.search-by-cede li a{
+  background-color: #ffc107;
+  border-radius: 50px;
+  color: black;
+  display: block;
+  margin: 3px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.search-by-cede ul{
+  display: none;
+  clear: left;
+  float: right;
+  min-width: 140px;
+}
+.menu-right .user a img{
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+.less-student > ul{
+  display: none;
+}
+.search-by-cede li a:hover{
+  background-color: #c18f15;
+}
+.search-by-cede:hover > ul{
+  display: block;
+}
+.user li a:hover{
+  background-color: #c18f15;
+}
+.user:hover > ul{
+  display: block;
+  position: absolute;
+  right: 1px;
+}
+.less-student:hover > ul{
+  display: block;
+  position: absolute;
+}
+.button-style:hover{
+  background-color: #c18f15;
+}
