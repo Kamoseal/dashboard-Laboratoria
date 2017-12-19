@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Dashboard Laboratoria</title>
-    <link rel="stylesheet" href="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\VIEWS\students-arequipa\main.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
   <body>
     <nav id="navegation-local-left">
       <ul class="menu-left">
-        <li class="li-left logo-laboratoria"><a href="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\index.html"><img class="logo-laboratoria" src="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\ASSETS\IMAGES\logoLab.png" alt="Logo Laboratoria"></a></li>
+        <li class="li-left logo-laboratoria"><a href="..\..\index.html"><img class="logo-laboratoria" src="..\..\ASSETS\IMAGES\logoLab.png" alt="Logo Laboratoria"></a></li>
         <li class="li-left form-search-student"><form class="li-left" action="index.html" method="post"><input class="search-student" type="search" name="by-student" placeholder="Search Student"></form>
           <ul class="li-left one-by-one-student">
             <li class="li-left search-one-student"><a href="#"><img src="http://dummyimage.com/30x30" alt="Search"></a></li>
@@ -16,18 +17,18 @@
         <li class="li-left separator"> | </li>
         <li class="li-left search-by-cede"><a href="#"><img src="http://dummyimage.com/30x30" alt="More"></a>
           <ul class="search-student-cede">
-            <li class="students-cede-cdmx"><a href="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\VIEWS\students-cdmx\studentscdmx.html">CDMX</a></li>
-            <li class="students-cede-gdj"><a href="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\VIEWS\students-gdj\student-gdj.html">GDJ</a></li>
-            <li class="students-cede-lima"><a href="#">LIMA</a></li>
-            <li class="students-cede-arequipa"><a href="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\VIEWS\students-arequipa\students-arequipa.html">AREQUIPA</a></li>
-            <li class="students-cede-santiago"><a href="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\VIEWS\students-santiago\students-santiago.html">SANTIAGO</a></li>
+            <li class="students-cede-cdmx"><a href="..\students-cdmx\studentscdmx.html">CDMX</a></li>
+            <li class="students-cede-gdj"><a href="..\students-gdj\student-gdj.html">GDJ</a></li>
+            <li class="students-cede-lima"><a href="..\students-lima\students-lima.html">LIMA</a></li>
+            <li class="students-cede-arequipa"><a href="..\students-arequipa\students-arequipa.html">AREQUIPA</a></li>
+            <li class="students-cede-santiago"><a href="..\students-santiago\students-santiago.html">SANTIAGO</a></li>
           </ul>
         </li>
       </ul>
       </nav>
       <nav id="navegation-local-righ">
         <ul class="menu-right">
-          <li class="li-right user"><div class="photo-user"><a href="#"><img src="C:\Users\Invitado Laboratoria\Documents\Laboratoria\Producto_Final_2do_Sprint_LaboratoriaDataDasboard\ASSETS\IMAGES\usuario-prueba.jpg" alt="user-photo"></a></div>
+          <li class="li-right user"><div class="photo-user"><a href="#"><img src="..\..\ASSETS\IMAGES\usuario-prueba.jpg" alt="user-photo"></a></div>
           <ul class="user-open-close-session">
             <li><a href="#">Login</a></li>
             <li><a href="#">Close Session</a></li>
@@ -77,21 +78,22 @@
           <div class="box-student-info box-student-info-style">
             <div class="student-photto student-photo-style">
             </div>
+            <div class="averange-style">
+              <p class="average-tech-skills">k</p>
+              <p class="text-average">TECH SKILLS</p>
+            </div>
+            <div class="averange-style">
+              <p class="average-life-skills">k</p>
+              <p class="text-average">LIFE SKILLS</p>
+            </div>
+            <div class="averange-style">
+              <p class="specialization">h</p>
+              <p class="text-average">SPEC IALIZAT</p>
+            </div>
             <div class="student-info student-info-style">
               <p class="name-student"></p>
               <p class="active"></p>
-              <div class="averange-style">
-                <p class="average-tech-skills"></p>
-                <p class="text-average">TECH SKILLS</p>
-              </div>
-              <div class="averange-style">
-                <p class="average-life-skills"></p>
-                <p class="text-average">LIFE SKILLS</p>
-              </div>
-              <div class="averange-style">
-                <p class="specialization"></p>
-                <p class="text-average">SPECIALIZATION</p>
-              </div>
+            </div>
               <select class="sprints" name="sprints-number">
                 <option value="sprint-one">Sprint 1 Common core</option>
                 <option value="sprint-one">Sprint 2 Common core</option>
@@ -102,7 +104,6 @@
                 <option value="sprint-one">Sprint 7 Specialization</option>
                 <option value="sprint-one">Sprint 8 Specialization</option>
               </select>
-            </div>
           </div>
         </section>
       </nav>
