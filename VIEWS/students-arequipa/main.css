@@ -15,18 +15,21 @@
   padding: 5%;
   position: relative;
   width: 100%;
+  z-index: -1;
 }
 #students-info{
   position: relative;
   height: 100%;
   padding: 10% 1%;
   width: 100%;
+
 }
 hr{
   margin: 9px;
 }
 .li-left{
   float: left;
+  clear: inherit;
 }
 .logo-laboratoria{
   height: 50%;
@@ -50,6 +53,7 @@ hr{
 }
 .li-right{
   float: right;
+  clear: inherit;
 }
 .input-style-name{
   border-radius: 50px;
@@ -109,9 +113,10 @@ hr{
 }
 .generation{
   height: 30px;
-
+  float: left;.
   top: 30%;
   width: 30%;
+  z-index: 1;
 }
 .box-student-info-style{
   border: 3px solid #ffc107;
